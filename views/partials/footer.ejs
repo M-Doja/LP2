@@ -1,0 +1,24 @@
+
+
+<!-- </div> -->
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Developed by Dev Doja  <a id="at"style="color: #777;"ui-sref="authIn"><i class="fa fa-copyright" aria-hidden="true"></i></a> <span id="year"></span> </span>
+  </div>
+</footer>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+  let d = new Date(); const  year = document.getElementById('year');
+  let yr = d.getFullYear(); year.innerHTML = yr;
+  $(window).keyup(function(e){var key = e.which;if(key == 13 || key == 39){$('.next').click();return false;}else if(key == 37) { $('.prev').click();return false;}});
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="/lib/lightgallery.js-master/dist/js/lightgallery.min.js"></script>
+<script>
+  lightGallery(document.getElementById('lightgallery'));
+  </script>
+</body>
+</html>
