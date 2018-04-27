@@ -1,6 +1,7 @@
 {
   "name": "lp2",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "Micah Dunson",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
