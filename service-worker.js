@@ -16,12 +16,18 @@ var dataCacheName = 'lpData-v1';
 var cacheName = 'lisanaphotoPWA';
 var filesToCache = [
   '/',
-  'index.html',
-  'JS/app.js',
-  'JS/lisanaphotodb-export.json',
-  'CSS/style.css',
-  'images/LP-logo.png',
-  'images/cam2.png',
+  'views/index.ejs',
+  'views/family.ejs',
+  'views/travel.ejs',
+  'views/urban.ejs',
+  'views/gallery.ejs',
+  'views/partials/header.ejs',
+  'views/partials/footer.ejs',
+  'views/partials/s-footer.ejs',
+  'public/stylesheets/style.css',
+  'public/stylesheets/gallery.css',
+  'public/images/LP-logo.png',
+  'public/images/tumblr_static_5zhypc46iqskw0g0goko8skos_2048_v2.gif',
 
 ];
 
