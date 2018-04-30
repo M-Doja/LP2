@@ -7,6 +7,9 @@
     "start": "node ./bin/www",
     "watch": "nodemon ./bin/www"
   },
+  "engines": {
+    "node": "6.10.3"
+  },
   "dependencies": {
     "body-parser": "~1.15.2",
     "cookie-parser": "~1.4.3",
